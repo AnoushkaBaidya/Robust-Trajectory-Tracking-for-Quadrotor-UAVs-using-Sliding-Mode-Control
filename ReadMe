@@ -1,0 +1,5 @@
+The folder with the name 'Project' is the ROS package that contains the scripts for the controller and the visualization.
+Place this folder in the 'src' folder of the quadrotor workspace and build the workspace for running it.
+First launch the quadrotor in gazebo.
+Next enter the following command to run the controller
+"rosrun project quadrotor_control.py" 
